@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Miame HEAT</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.ico">
+    <script src="https://kit.fontawesome.com/0b55b11252.js" crossorigin="anonymous"></script>
+    <meta name="description" content="The Miami HEAT teamed up with Miami-Dade County Public Schools and Miami Dade College, North Campus for 'My Future. My Voice. My Vote.'"/>
+    <meta name="keywords" content="Miame,Heeata,bestPlayers,player,matches"/>
+    <meta name="author" content="Predrag Stijović"/>
+</head>
+<body>
+    <nav>
+        <div id="line">
+        </div>
+        <div id="menu">
+        </div>
+        <div id="menuResp"></div>
+    </nav>
+    <main>
+        <div class="container-fluid">
+        <div id="baner">
+            <div id="nextGame" class="p-5">
+                <h1 class="mb-5">22 december 2022 / 19:50UTC</h1>
+                <h2 class="mb-5">Miame Heeata - cleeved caevlers</h2>
+                <div id="gameTimer" class="mb-5">
+                </div>
+                <button id="moreGame" class="p-3"><a href="#matches">Latest matches</a> </button>
+            </div>
+        </div>
+        <div id="bannerNd">
+        <div class="container">
+            <div class="row">
+        <div id="matches">
+                </div>
+            </div></div>
+        </div>
+        <div id="bannerRd">
+<div class="container">
+        <div id="players" class="pt-5" >
+           
+            <div class="row d-flex justify-content-around">
+                <div id="player" class="col-lg-5">
+                    <h4 class="pt-3">Players stats</h4>
+                <div id="pl">
+                </div>
+            </div>
+            <div id="bestPlayers" class="col-lg-5 col-md-12">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="news">
+   
+
+    
+    </div> <div id="modalNews">
+        <p id="close">X</p>
+       <div id="modalDiv">
+        
+       </div>
+     </div>
+<div class="container">      <h6 class="ml-5">Team</h6></div>
+
+
+     <!-- plugIN -->
+     <div id="team">
+        
+     </div>
+
+    <div class="container"> <div class="sliderMatch">   <h1 class="mt-5">
+        
+        More pictures from the matches
+       </h1></div></div>
+   <div class="container">
+ <div id="plugGallery" >
+       <div class="gallery-img ">
+        <img src="assets/img/slider1.jpeg" id="img-1" alt="slider1"/>
+        <img src="assets/img/slider2.jpeg" id="img-2" alt="slider2"/>
+        <img src="assets/img/slider3.jpeg" id="img-3" alt="slider3"/>
+        <img src="assets/img/slider4.jpeg" id="img-4" alt="slider4"/>
+        <img src="assets/img/slider5.jpg" id="img-5" alt="slider5"/>
+      </div>
+      <div class="thumb-img">
+        <a href="javascrip:void(0);" id="1">
+          <img src="assets/img/slider1.jpeg" alt="slider1"/>
+        </a>
+        <a href="javascript:void(0);" id="2">
+          <img src="assets/img/slider2.jpeg" alt="slider2"/>
+        </a>
+        <a href="javascript:void(0);" id="3">
+          <img src="assets/img/slider3.jpeg" alt="slider3"/>
+        </a>
+        <a href="javascript:void(0);" id="4">
+          <img src="assets/img/slider4.jpeg"alt="slider4"/>
+        </a>
+        <a href="javascript:void(0);" id="5">
+            <img src="assets/img/slider5.jpg"alt="slider5"/>
+          </a>
+      </div></div></div>
+
+      <div id="bannerForm">
+      <div class="container"> <div class="sliderMatch">   <h2 class="text-center">
+        Choose the player you want to receive news about
+       </h2></div></div>
+       <div id="forma">
+        <form id="form-contact">
+            <label for="name">First Name and Last Name</label>
+            <input type="text" name="name" id="name"/>
+            <span id="nameError"></span>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"/>
+            <span id="emailNameError"></span>
+            <span id="genderSelect">Select gender</span>
+            <label for="m">Male <input type="radio" id="m" name="gender" value="male"></label>
+            <label for="f">Female  <input type="radio" id="f" name="gender" value="female"></label>
+            <label id="lblPlayers" for="playersTopThree">Choose the best player from the top four</label>
+            <span id="selectError"></span>    <label for="confirm" id="labelConf"><input type="checkbox" id="confirm" name="confirm" >I agree to receive news on a weekly basis about the selected player</label>
+            <input type="button" id="submitButton"  value="SEND"/>
+            <div id="success">
+              Your data has been successfully sent.
+            </div>
+            <div id="error">
+              An error occurred in sending the data, please check if you have entered everything correctly.
+            </div>
+          
+
+        </form>
+    </div>
+      </div>
+      <div class="container">
+        <h3 class="text-center author">Author</h3>
+        <div id="author">
+            <img src="assets/img/author.jpg" alt="author"/>
+            <p>Hi, I'm Predrag! I finished “Nikola Tesla” School of Electrical Engineering in Belgrade. Currently I am studying at College of Information and Communication Technologies, majoring in IT. My favorite programming language is JavaScript. I like to spend my free time in sports activities with my friends.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        
+            <div id="footerContent">
+            </div>
+       
+    </footer>
+
+    
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</body>
+</html>

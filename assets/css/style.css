@@ -1,0 +1,503 @@
+@font-face{
+    src: url("../font/Oxygen/Oxygen-Regular.ttf");
+    font-family: font;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "font";
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+      text-decoration: none !important ;
+}
+#line{
+    height:70px;
+    background-color: rgb(2, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+}
+.lineUl{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+.lineUl li{
+    width: 100%;
+}
+.lineUl li a i{
+    color: rgb(255, 247, 247);
+}
+
+#menu{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  
+}
+
+#logo{
+    width: 20%;
+    height: 80px;
+}
+#logo img{
+    width: 60%;
+    height: 80px;
+}
+#listMenu{
+    width: 60%;
+}
+#listMenu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#listMenu ul li a{
+font-size: 19px;
+color: rgb(9, 0, 0);
+text-transform: uppercase;
+
+}
+#responsive{
+    display: none;
+    border: none;
+}
+#menuResp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 14, 14);
+}
+#menuResp ul li a {
+    color: rgb(255, 247, 247);
+}
+#baner{
+background-image: url('../img/banner-1.jpg');
+height: 730px;
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: flex-start;
+padding-top: 50px;
+}
+
+.card{
+    background-color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.date{
+    font-weight: normal;
+    font-size: 20px;
+}
+#nextGame{
+    width: 60%;
+    height: 400px;
+}
+#moreGame{
+    background-color: rgba(255, 0, 0, 0.225);
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+h1,h2,h3,h4,h5{
+    text-transform: uppercase;
+    color: #fff;
+}
+h6{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+    margin: 20px;
+}
+.sliderMatch h1{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+    margin: 20px;
+}
+.sliderMatch h2{
+    text-transform: uppercase;
+    color: rgb(254, 252, 252);
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+#moreGame a{
+    color: #fff;
+}
+.result{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    height: 50px;
+   
+
+}
+.kartica{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-weight: bold;
+}
+.kartica figcaption{
+    color: #fff;
+}
+.kartica img{
+    width: 20%;
+}
+#matches img{
+
+    border-radius: 50%;
+}
+#bannerNd
+{
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+#player{
+    height: 500px;
+
+}
+
+#player p{
+    font-size: 20px;
+    color: #fff;
+}
+#bestPlayers{
+    height: 500px;
+    background-color: #000;
+    
+
+}
+.buttonPlayers button{
+    background-color: transparent;
+    border: 1px solid rgb(253, 241, 241);
+    border-radius: 4px;
+    padding: 5px;
+}
+.buttonPlayers figcaption,p{
+    color: #fff;
+}
+.buttonPlayers img{
+    width: 20%;
+}
+.number{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(18, 2, 2);
+    border-radius: 5px;
+}
+#bannerRd{
+    background-image: url('../img/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+#news p{
+    color: #000;
+}
+#news figcaption{
+    font-weight: bold;
+}
+#news h6{
+    font-size: 30px;
+   margin: 20px; 
+}
+.newsButton{
+    border: none;
+}
+#modalNews{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:#000000c7  ;
+    z-index: 10;
+    margin: auto;
+
+}
+#modalDiv{
+    background-color: #000;
+    margin: auto;
+    height: 600px;
+    width: 50%;
+}
+#modalNews p{
+    color: #fff;
+    background-color: rgb(102, 4, 4);
+    width: 5%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+.modalText{
+    background-color: transparent !important;
+    width: 100% !important;
+}
+#plugGallery{
+    margin-bottom: 30px;
+    height: 1100px;
+}
+
+.gallery-img {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .gallery-img img {
+  /*   float: left; */
+    width: 100%;
+  }
+  .thumb-img{
+    width: 100%;
+  }
+  .thumb-img img{
+    float: left;
+    width: 20%;
+  }
+#bannerForm{
+    background-image: url('../img/bannerForm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+#forma{
+    width: 50%;
+    height: 800px;
+    margin: 0px auto;
+}
+form{
+    width: 80%;
+    background-color: rgba(14, 14, 14, 0.559);
+    margin: 0px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  input[type=text]{
+width: 100%;
+padding: 5px;
+color: #fff;
+border: none;
+border-bottom:2px solid rgba(85, 4, 4, 0.856 );
+background: transparent;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    border-bottom:2px solid rgba(85, 4, 4, 0.856) ;
+    background: transparent;
+      }
+  label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  #genderSelect{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  select{
+    width: 50%;
+    background: transparent;
+    color: #fff;
+  }
+  #submitButton{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(85, 4, 4, 0.856 );
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  #author{
+    display: flex;
+    justify-content: space-around;
+}
+#author img{
+    width: 40%;
+}
+#author p{
+    width: 40%;
+    color: #000;
+    font-size: 20px;
+}
+.author{
+    color: #000;
+    margin-top: 20px;
+}
+
+#footerContent {
+
+    height: 45px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footerContent a{
+    color: #fff;}
+#modalForma{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+form span{
+    color: #fff;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.852);
+    border: none;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 2px;
+}
+#goodSelect{
+    color: #fff;
+}
+#badSelect{
+    color: #ff0000;
+}
+#success {
+    display: none;
+    color:green;
+    background-color: rgba(0, 0, 0, 0.579);
+    padding: 10px;
+    font-size: large;
+}
+#error {
+    display: none;
+    color:red;
+    background-color: rgba(0, 0, 0, 0.579);
+    padding: 10px;
+    font-size: large;
+}
+  @media screen and (max-width: 1000px) {
+    #plugGallery{
+        margin-bottom: 30px;
+        height: 540px;
+    }
+    
+  }
+@media screen and (max-width: 990px) {
+    
+    #bestPlayers{
+        margin-top: 10px;
+        
+    
+    }
+    #bannerRd{
+       
+        width: 100%;
+        height: 1350px;
+    }
+    #player{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    
+    .lineUl{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+}
+@media screen and (max-width: 770px) {
+    
+    #plugGallery{
+        margin-bottom: 30px;
+        height: 440px;
+    }
+    #forma{
+        width: 100%;}
+        #author{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+#pl img{
+   height: 300px;
+}
+}
+
+
+
+@media screen and (max-width: 650px) {
+#logo {
+    width: 50%;
+}
+
+#listMenu{
+    display: none;
+}
+#responsive{
+    display: block;
+}
+}
+@media screen and (max-width: 600px) {
+    #gameTimer{
+        display: none;
+    }
+    .result{
+        font-size: 20px;
+      
+       
+    
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    #pl img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #pl img{
+        height: 180px;
+    }
+}
